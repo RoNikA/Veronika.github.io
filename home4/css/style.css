@@ -1,0 +1,187 @@
+body{
+
+   width: 100%;
+   background: url("../img/bk.png");
+  background-size: 100% 100%;
+  background-position: left, right;
+  background-repeat: repeat-y, repeat-x;
+  
+}
+.wrapper{
+  width: 74%;
+  margin: 0 auto;
+  margin-bottom: 50px; 
+  padding: 0px;
+  background-color: #ffffff; 
+   
+
+}
+
+.header{
+	width:100%;
+	background: #ffffff;
+	padding: 0px;
+	margin: 0px;
+}
+
+.logo{
+	width: 280px;
+	height: 163px;
+	margin-left: 4%; 	
+	float: left;
+	
+	
+	}
+	.contact{
+		width: 150px;
+		float: left;
+		margin: 1% 0% 0% 52%;
+		
+	}
+
+	.contact ul{
+		font: 12px Arial, sans-serif;
+		color: #41a1b9;
+		padding: 0;
+		margin: 0;
+	}
+	.flags {
+		width: 40%;
+	    float: right;
+        margin: 1% 1% 0% 0% ;
+     
+
+	}
+	.flags img{
+		float: right;
+		margin: 0% 2% 0% 0%;
+			
+	}
+
+	.banner	{	
+	width: 100%;
+	
+	clear: both;	 
+	}
+ 
+	
+ .menu  {
+    width: 100%;
+ 	position: relative;  
+    list-style: none; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 12pt; 
+    border-bottom: 1px black solid;
+    background: #343434;
+   }
+   .menu > li ul {
+    position: absolute; 
+    display: none;
+    font-family: Arial, sans-serif; 
+    font-size: 12pt; 
+  
+
+   }
+    .menu > li a {
+
+    display: block; 
+    padding: 10px 28px; 
+    float: left;
+    text-decoration: none; 
+    color: #ffffff; 
+   
+    background-color: #353535; 
+    border-bottom: none; 
+   font-family: Arial, sans-serif;
+    font-size: 12pt; 
+}
+    .menu > li a:hover {
+    color: #ffffff; 
+    background-color: #353535; 
+  }
+   .menu > li:hover ul { 
+    display: block;
+    float: left;
+    margin-top: 36px;
+    margin-left: 115px;
+    
+}
+
+ 
+.menu> li img{
+   	margin-left: 10px;
+   }
+   
+ .clearfix:after{
+	 	content: " ";
+        display: block;
+        clear: both;
+
+	 }
+	
+
+
+    .fon{
+
+   	width: 100%;
+   	background: url("../img/fon.jpg");
+   	float: left;
+
+   }
+   .fon h3{
+   	text-align: center;
+   	margin-top: 10px;
+   	font: bold  100% Arial, serif;
+    color: #424c43;
+	}
+
+  .fon a{
+     text-decoration: none;
+     color:  #3d3f3d;
+     line-height: 20px;
+     
+   }
+
+	.nav{
+		width: 20%;
+		float: left;
+		background: #edeef0;
+	}
+	.nav li{
+	padding: 1%;	
+}
+
+
+
+	.main{
+		float: left;
+		width: 40%;
+	
+		
+	}
+    .news{
+    	width: 20%;
+    	float: right;
+    	background: #edeef0;
+    	
+    }
+	footer{
+
+    position: fixed; 
+    left: 0; 
+    bottom: 10px; 
+    text-align: center;
+    padding: 10px;    
+    color: #ffffff; 
+    width: 100%; 
+
+	}
+
+p{
+	font: 12px Arial, sans-serif;
+		
+}
+
+
+	
