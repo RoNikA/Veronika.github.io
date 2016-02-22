@@ -1,0 +1,244 @@
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	
+    position: relative;
+    vertical-align: baseline;
+    min-height: 100%;
+    text-align: left;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: 100%;
+   
+}
+.menu { 
+	
+	width: 100%;
+	height: 36px;
+	background: url(../img/menu.gif) 0 0 repeat-x;
+    vertical-align: top;
+
+
+}
+
+ .menu ul  { 	
+     margin-left: 45%;
+
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 12px;
+    list-style: none;
+    color: #FFFFFF;
+    line-height: 35px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  
+}
+.menu ul li  {
+	
+	text-align: right;
+
+}
+.menu li img  {
+	vertical-align: middle;
+}
+.menu li:hover  {
+	
+	color: #FFFFFF;
+	background: #4eabda;
+}
+
+.menu a:hover  {
+	
+	color: #FFFFFF;
+	
+}
+
+
+ul{
+   
+    padding: 0;
+    outline: 0;
+    display: block;
+    
+    }
+
+
+.menu-item-login a {
+    padding: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.menu span {
+	text-decoration:underline;
+
+}
+
+.menu>.btn-blue{
+
+	color: #fff;
+    border-radius: 1px;
+    background: #317fc7;
+    border-color: #5f83a7;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    color: #60b5ed;
+    text-decoration: none;
+     
+}
+
+p{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.registration {
+    position: absolute;
+    width: 41%;
+    min-width: 100%;
+    min-height: 100%;
+   
+ }
+   .reg-form {
+    width: 41%;
+    margin: 15% 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.reg-box {
+    margin-bottom: 150px;
+    padding-top: 36px;
+   
+}
+ 
+.fb-login {
+    display: block;
+    margin: 0 auto 20px;
+    height: 35px;
+    width: 276px;
+    background: url(../img/fb.png) 0 0 no-repeat;
+}
+
+
+.reg-title {
+    margin-bottom: 2px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px solid #b7c0ad;
+  
+}
+.reg-text {
+    position: relative;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin: 0 142px 20px;
+    text-align: center;
+    color: #999;
+}
+.reg-text:before {
+    right: 0;
+}
+.reg-text:after {
+    left: 0;
+}
+.reg-text:after, .reg-text:before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    height: 1px;
+    background-color: #666;
+    border-bottom: 1px solid #000;
+    width: 120px;
+}
+.registration .reg-input {
+    display: block;
+    margin: 0 auto 16px;
+    font: 14px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #ccc;
+    padding: 0 19px;
+    height: 35px;
+    width: 238px;
+    background: #000;
+    border-width: 0 0 1px 0;
+    border-color: #484848;
+    
+}
+
+
+.send-tips {
+    width: 276px;
+    margin: 0px auto 10px;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+}
+.create-account {
+    height: 37px;
+    width: 150px;
+    border: none;
+    padding: 0 0 3px;
+    margin: 10px auto 0;
+    display: block;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-blue {
+    color: #fff;
+    border-radius: 3px;
+    background: #317fc7;
+    box-shadow: 0 1px 1px #73d1eb inset;
+    border-color: #5f83a7;
+    cursor: pointer;
+    
+    
+}
+
+input {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+   
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+    margin: 5px 5px 4px 5px;
+}
+
+.reg-form-line>input:focus {
+    background: #1b5288;
+
+ 
+}
+.agree {
+    font-size: 11px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    line-height: 15px;
+    color: #ccc;
+    padding: 20px 0;
+}
