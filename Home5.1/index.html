@@ -6,69 +6,61 @@
  <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="css/reset.css"/>
 
-	</head>
-
-		<body>
+</head>
+<body>
 <!--Top-meu-->
 <div class="menu">
-	<ul>
-		<li><a href="#">Meu YouBike</a></li>
-		<li><a href="#">Vender</a></li>
-		<li><a href="#">Contato</a></li>
-		<li><a href="#">Ajuda</a></li>
-		<li><a href="#"><img src="img/img1.png"> Minhas Ofertas</a></li>
-	    <li class="menu-item-login btn-blue">
-	    <a href="#"> Ola!&nbsp;<span>Entrar</span></a><a href="#">&nbsp;&nbsp;ou&nbsp;<span>Cadastre-se</span></a></li>
-
-	</ul>
+    <div  class="menu__item">
+      <ul class="menu__list">
+		<li><a class="menu__link" href="#">Meu YouBike</a></li>
+		<li><a class="menu__link" href="#">Vender</a></li>
+		<li><a class="menu__link" href="#">Contato</a></li>
+		<li><a class="menu__link" href="#">Ajuda</a></li>
+		</ul>
+     <span class="line-ou"></span>
+     <div class="right-links">
+       <span class="flag"></span>
+       <p class="ava-link">Minhas Ofertas</p>
+	<p class="ola-link">Ola! <a href="#">Entrar</a>  ou <a href="#">Cadastre-se</a> </p>
+     </div>
+    </div>
 </div>
                      <!--REGISTRATION-->
 
     <div class="registration">
-       <form class="reg-form" method="" action="">
-		 <p class="reg-title">Cadastre-se</p>
-		
+       <h2 class="headline">Cadastre-Se</h2>
+<!-- FACEBOOK LOGIN -->
+    <div class="facebook">
+        <img class="facebook-button" src="./img/fb.png" alt="">
+    </div>
 
-	<div class="reg-box">
-		<div class="reg-form-line">
-			<a href="" class="fb-login"></a>
-		</div>
-		<div class="reg-form-line">
-			<p class="reg-text">OU</p>
-		</div>
-		<div class="reg-form-line">
-			<input type="text" class="reg-input" placeholder="Fist name" name="Fist">
-		</div>
-		<div class="reg-form-line">
-		<input type="text" class="reg-input" placeholder="Last name" name="last">
-				</div>
-        <div class="reg-form-line">
-			<input type="text" class="reg-input" placeholder="E-mail" name="email">
-		</div>
-		<div class="reg-form-line">
-			<input type="password" class="reg-input" placeholder="Choose Password" name=" password1">
-		</div>
-		<div class="reg-form-line">
-			<input type="password" class="reg-input" placeholder="Password Confirm" name="passwd2">
-		</div>
+<!--LINE  -->
+    <div class="line-or">
+        <span class="line"></span>
+        <p class="or">OU</p>
+        <span class="line"></span>
+    </div>
 
 
+<!--FORM-->
+    <div class="form">
+        <input type="text" placeholder="First Name" >
+        <input type="text" placeholder="Last Name" >
+        <input type="text" placeholder="Email Address" >
+        <input type="text" placeholder="Choose Password" >
+        <input type="text" placeholder="Password Confirm" >
+        <div class="mail-agree"><input id="trigg" type="checkbox">
+            <lable>Send me Youbike updates and tips</lable>
+         </div>
+        <button class="create">Create my Account</button>
 
-	    <div class="reg-form-line">
-			<div class="send-tips">
-				<input type="checkbox" class="reg-checkbox"  name="subscribe">
-					<label for="send-tips">Send me YouBike updates and tips</label>
-			</div>
-		</div>
-		<div class="reg-form-line">
-			<input type="hidden" name="account" value="">
-				<input type="submit" class="create-account btn-blue" value="Create my Account">
-		</div>
-		<div class="reg-form-line">
-			<p class="agree">By clicking the button above, you agree to the Terms of Service.
-				<br>Xiev our Privacy Policy.</p>
-		</div>
-        </form>
+<!-- AGREE-->
+        <div class="agree">
+            <p>By clicking the button above, you agree to the Terms of Service
+                Xiew our Privacy Policy.</p>
+        </div>
+    </div>
+</div>
 
 
 
