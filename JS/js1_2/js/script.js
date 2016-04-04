@@ -36,15 +36,27 @@ var userName = prompt('Введите Ваше имя пользователя')
 for (i = 0; i < arr.length; i++){
     if (arr[i] === userName){
         flag = true;
-    }
-};
+}
+ }; 
+
+
+
+	if(userName == "" || userName == null) {
+		
+        alert("Вы не ввели имя!");
+        debbuger;
+    }; 
+        
+
+
 if (flag == true) {
     alert('Вы успешно вошли, '+ userName );
-} else
-    {
-        alert('Извините, но имя пользователя' + userName + ' не найдено')
-    };
+} 
 
+else{
+    
+        alert('Извините, но имя пользователя' + userName + ' не найдено'); 
+    };
 
   
 
