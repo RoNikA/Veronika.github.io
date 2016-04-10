@@ -110,7 +110,8 @@ label {
     float: right;
     position: absolute;
     margin: -185px 300px;
-    visibility: hidden;
+    visibile: hidden;
+    display: none;
     
   }
   .help_text p {
