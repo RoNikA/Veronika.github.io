@@ -1,0 +1,127 @@
+
+body{
+  margin: 0;
+  padding: 0;
+ background-image: url("../img/img1.jpg");
+
+}
+
+
+.tabs {
+  margin: 0 65px 5px 65px ;
+  padding: 0 5px 5px 5px ;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 10%;
+}
+
+
+
+.title{
+  height: 50px;
+  width: 100%;
+  
+  border-radius: 5px;
+  background: linear-gradient(to top, #5D2941, #cecece);
+}
+.tabs ul {
+  list-style: none;
+}
+.tabs  li a {
+  font-family: Tahoma, sans-serif;
+  float: left;
+  padding: 0 10px;
+  margin: 11px 0px 0px 5px;
+  background-color: #DAD8D8;
+  border-radius: 5px 5px 0px 0px;
+  line-height: 38px;
+  border: 1px solid #B1E0F2;
+  border-bottom: none;
+}
+
+
+
+.tabs  li a:hover {
+  border: 1px solid grey;
+  border-bottom: none;
+  cursor: pointer;
+}
+.content_box {
+  clear: both;
+  /*width: 100%;*/
+  padding-left: 5px;
+  background-color: #DAD8D8;
+   opacity: 0.8;
+}
+.content_box{
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px 10px 5px;
+}
+#active {
+  /*background-color: white;*/
+  display: block;
+}
+
+
+
+.t1{ 
+  width: 90%;
+    display: none;
+}
+.t2 {
+  width: 90%;
+  display: none;
+}
+.t3 {
+  width: 90%;
+  display: none;
+}
+
+
+
+
+
+fieldset {
+  width: 40%;
+  margin-left: 400px;
+  background-color: #DAD8D8;
+  opacity: 0.8;
+    
+  }
+
+
+label {
+    display: inline-block;
+     width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+     width: 300px;
+    position: relative;
+  }
+  fieldset .help {
+    display: inline-block;
+    
+  }
+
+  .help_text{
+    float: right;
+    position: absolute;
+    margin: -185px 300px;
+    visibility: hidden;
+    
+  }
+  .help_text p {
+    line-height: 40px;
+    
+    
+  }
+
+  button {
+    color: #FFFFFF;
+    background:  #5D2941;
+
+    
+  }
