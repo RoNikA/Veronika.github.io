@@ -1,0 +1,208 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+nav {
+    background-color: #000000;
+       
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+}
+nav ul li {
+    display: inline-block;
+    position:relative;
+}
+nav li ul {    
+    background-color:#000000;
+    position:absolute;
+    left:0;
+    width:170px;
+}
+
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    background-color:#000000;
+    left:170px; 
+}
+nav a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+   text-decoration: underline;
+}
+
+
+nav li li a {
+    
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-size: 12px; 
+    background-position:right 0px top 20px; 
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-size: 6px; 
+    background-position:right 14px;
+    background-repeat:no-repeat;
+}
+ul .submenu {
+    display:none;
+}
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  width: 40%;
+  padding: 0;
+  margin: 10% 20% 10% 30%;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 80%;
+  border: 0;
+  }
+
+dd .ddArrow {
+    width: 20px;
+    height: 27px;
+    margin-top: -13px;
+    background: url(../../images/msdropdown/skin2/dd_arrow.gif) no-repeat;
+}
+.choose {
+	width: 20%;
+	position: relative;
+    display: block;
+		
+}
+.cheks{
+    margin-top: 20px;
+    margin-left: 75px;
+	width: 100px;
+	float: left;
+	
+}
+	.chek_jq {
+	display: inline-block;
+	clear: both;
+	width: 100px;
+	
+}
+
+.chek_css{
+	display: inline-block;
+	width: 100px;
+}
+
+.jq_box{
+	height: 17px;
+	width: 17px;
+	margin-left: 3px;
+	margin-top: 3px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url(../img/checkbox.png) 0 0 no-repeat;
+	
+}
+
+.jq_box input {
+    display: none;
+}
+
+.css_box{
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.css_label {
+	
+	display: inline-block;
+	width: 200px;
+}
+
+.css_label:after {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png) 0 0 no-repeat;
+	position: relative;
+	margin-left: 3px;
+	margin-top: 3px;
+	vertical-align: middle;
+}
+
+.css_box:checked+.css_label:after {
+	background: url(../img/checkbox.png) 0 -17px no-repeat;
+}
+.css_box:disabled+.css_label:after {
+	background: url(../img/checkbox__dis.png) 0 -17px no-repeat;
+}
+
+p span {
+	font-style:italic;
+	color: #C3C3C3;
+	font-weight: lighter;
+	font-size: 10px;
+	
+}
+
+
+p{
+	color: #02ABE3;
+}

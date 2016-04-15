@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/stylescheet.css">
+  <link rel="stylesheet" type="text/css" href="css/msdropdown/dd.css"/>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.dd.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+  
+  <script src="js/responsiveslides.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="container">
+<nav>
+  <ul>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">PROCESS</a></li>
+    <li class="dropdown"><a href="#">COLLECTIONS</a>
+             <ul class="submenu">
+              <li><a href="#">Men</a></li>
+              <li class="dropdown"><a href="#">Women</a>
+                    <ul class="submenu">
+                      <li><a href="#">Underwear</a></li>
+                      <li><a href="#">Accessories</a></li>
+                     
+                    </ul>
+              </li>
+              <li><a href="#">For Kids</a></li>
+              <li><a href="#">Decor</a></li>
+             </ul>
+    </li>
+    <li><a href="#">SHOP</a></li>
+    <li><a href="#">CONTAKT</a></li>
+  </ul>
+ </nav>
+
+<div class="slider">
+<ul class="rslides">
+  <li><img src="img/3.jpg" alt=""></li>
+  <li><img src="img/4.jpg" alt=""></li>
+  <li><img src="img/7.jpg" alt=""></li>
+  <li><img src="img/10.jpg" alt=""></li>
+  <li><img src="img/13.jpg" alt=""></li>
+</ul>
+</div>
+
+<select name="choose" class="choose">
+    <option>Season</option>
+    <option>New</option>
+    <option>Summer</option>
+    <option>Demi-season</option>
+    <option>Winter</option>
+    
+ </select>
+<div class="cheks">
+
+<div class="chek_jq">
+<p>Choose style <span>by jQuery</span></p>
+<label>Sport</label><span class="jq_box"><input type="checkbox" name="check_first" /></span><br>
+<label>Classic</label><span class="jq_box"><input type="checkbox" checked="true" name="check_second" /></span><br>
+<label>Casual</label><span class="jq_box"><input type="checkbox" name="check_third" disabled="true" /></span>
+</div>
+
+<div class="chek_css">
+<p>Choose size <span>by CSS</span></p>
+<input type="checkbox" id="check_css_first" class="css_box" /><label class="css_label" for="check_css_first">S</label><br>
+<input type="checkbox" id="check_css_second" class="css_box" checked="true" /><label class="css_label" for="check_css_second">M</label><br>
+<input type="checkbox" id="check_css_third" class="css_box" disabled="true" /><label class="css_label" for="check_css_third">L</label></span>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
+
