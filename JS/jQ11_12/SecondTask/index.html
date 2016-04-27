@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/stylescheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/template.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+
+
+<!--Second task-->
+
+ <script type="text/tmpl" id="task2">
+      <section class="userProfile">
+         <div class="userContent">
+
+           <header class="header"><h1><%= data[0].title %></h1></header>
+           <div class="user-img"><img></div>
+            <div class="aboutMe">
+            	<p><%= data[0].content[0] %></p><hr>
+				<p><%= data[0].content[1] %></p>
+            </div>
+
+                    <ul class="description">
+						<% for (var i = 0; i < data[1].description.length; i++) { %>
+							<li><%= data[1].description[i]%></li>
+						<% } %>
+					</ul><hr>
+
+					<div class="phone"
+						<% var info = data[0].content.slice(2, 4); %>
+						 <% for (var i = 0; i < info.length; i++) { %>
+						<p><%= info[i] %></p>
+						 <% } %>
+				   </div>
+
+					<div class="fb">
+						<p><%= data[0].content[4] %></p>
+						<a><%= data[2].link %></a><hr>
+
+					<div class="end-box"
+						<% var feedBack = data[0].content.slice(5); %>
+						<% for (var i = 0; i < feedBack.length; i++) { %>
+							<p><%= feedBack[i] %></p>
+						<% } %>
+					</div>
+
+				</div>
+			</section>
+		</script>
+
+
+
+ </body>
+</html>
