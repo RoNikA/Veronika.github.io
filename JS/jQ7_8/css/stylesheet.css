@@ -2,32 +2,29 @@
 body{
   margin: 0;
   padding: 0;
- background-image: url("../img/img1.jpg");
-
+  background-image: url("../img/img1.jpg");
 }
 
-
 .tabs {
+  width: 90%;
   margin: 0 65px 5px 65px ;
   padding: 0 5px 5px 5px ;
   border: 1px solid grey;
-  border-radius: 5px;
-  width: 90%;
+  border-radius: 5px; 
   margin-bottom: 10%;
 }
-
-
 
 .title{
   height: 50px;
   width: 100%;
-  
   border-radius: 5px;
   background: linear-gradient(to top, #5D2941, #cecece);
 }
+
 .tabs ul {
   list-style: none;
 }
+
 .tabs  li a {
   font-family: Tahoma, sans-serif;
   float: left;
@@ -40,89 +37,101 @@ body{
   border-bottom: none;
 }
 
-
-
-.tabs  li a:hover {
+.tabs  li a:hover,
+.tabs  li a:link,
+.tabs  li a:visited {
   border: 1px solid grey;
   border-bottom: none;
   cursor: pointer;
+  color: #742F4F;
 }
+
 .content_box {
   clear: both;
-  /*width: 100%;*/
   padding-left: 5px;
   background-color: #DAD8D8;
-   opacity: 0.8;
+  opacity: 0.8;
 }
+
 .content_box{
   font-family: Tahoma, sans-serif;
   font-size: 14px;
   padding: 10px 10px 10px 5px;
 }
-#active {
-  /*background-color: white;*/
+
+#active { 
   display: block;
 }
 
-
-
 .t1{ 
   width: 90%;
-    display: none;
+  display: none;
 }
+
 .t2 {
   width: 90%;
   display: none;
 }
+
 .t3 {
   width: 90%;
   display: none;
 }
 
+.box-help {
+    margin: 0 auto;
+    padding: 0 5px 5px 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 10%;
+    background-color: #DAD8D8;
+    opacity: 0.8;
+}
 
+.help-field {
+  margin: 5px 0px 10px 5px;
+  font-family: Tahoma, sans-serif;
+  position: relative;
+}
 
-
-
-fieldset {
-  width: 40%;
-  margin-left: 400px;
-  background-color: #DAD8D8;
-  opacity: 0.8;
-    
-  }
-
-
-label {
+.input1,
+.input2,
+.input3{
     display: inline-block;
-     width: 5em;
-  }
-  fieldset div {
-    margin-bottom: 2em;
-     width: 300px;
-    position: relative;
-  }
-  fieldset .help {
-    display: inline-block;
-    
-  }
+    width: 5em;
+}
 
-  .help_text{
-    float: right;
-    position: absolute;
-    margin: -185px 300px;
-    visibile: hidden;
-    display: none;
-    
-  }
-  .help_text p {
-    line-height: 40px;
-    
-    
-  }
+ span {
+  width: 18%;
+  display: inline-block;
+}
 
-  button {
-    color: #FFFFFF;
-    background:  #5D2941;
+.help {
+  position: absolute;
+  z-index: 11;
+  width: 230px;
+  height: 22px;
+  font-size: 14px;
+  margin-left: 5%; 
+  text-align: center;
+  background: linear-gradient(to top, #7F8B89, #FFFFFF);
+  border-radius: 5px; 
+  border: 1px solid #B1E0F2;
+  opacity: 0;
+  visibility: hidden;
+}
 
-    
-  }
+button {
+  width: 17%;
+  height: 30px;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  background: linear-gradient(to top, #5D2941, #cecece);
+}
+
+button:hover {
+  cursor: pointer;
+}
