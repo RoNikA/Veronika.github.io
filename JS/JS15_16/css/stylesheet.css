@@ -1,0 +1,31 @@
+
+body{
+	
+    background-image: url(http://image.zn.ua/media/images/original/Nov2015/132016.jpg);
+
+    background-repeat: no-repeat;
+}
+
+
+.googleSearch{
+
+    width: 600px;
+    margin: 10% 0 0 47%;
+   
+   
+}
+/*
+.gsc-control-cse{
+    font-family: Arial, sans-serif;
+    border-color: #00AAEB;
+    background-color: #6C51FF;
+}
+
+input.gsc-search-button, 
+input.gsc-search-button:hover, 
+input.gsc-search-button:focus {
+    border-color: #FF651B;
+    background-color: #4569D0;
+    background-image: none;
+    filter: none;
+    }*/
