@@ -18,7 +18,7 @@ describe("Test", function() {
       
 
        $.ajax(
-            {url: "https://github.com/RoNikA/Veronika.github.io/blob/master/JS/js21_22/templates.json",
+            {url: "https://github.com/RoNikA/Veronika.github.io/JS/js21_22/templates.json",
             async: false,
             success: function(data) {
                      response = data;
@@ -35,7 +35,7 @@ describe("Test", function() {
                            };      
       
 //      act
-      test.initQestions("https://github.com/RoNikA/Veronika.github.io/blob/master/JS/js21_22/questions.json");
+      test.initQestions("https://github.com/RoNikA/Veronika.github.io/JS/js21_22/questions.json");
       var resultQuestion = test.questions[2];
 
       
@@ -52,7 +52,7 @@ describe("Test", function() {
       
 //Сравниваю шаблоны
        $.ajax(
-            {url: "https://github.com/RoNikA/Veronika.github.io/blob/master/JS/js21_22/templates.json",
+            {url: "https://github.com/RoNikA/Veronika.github.io/JS/js21_22/templates.json",
             async: false,
             success: function(data) {
                      response = data;
@@ -60,7 +60,7 @@ describe("Test", function() {
             }
             }); 
           
-           test.initTemplate("https://github.com/RoNikA/Veronika.github.io/blob/master/JS/js21_22/templates.json");
+           test.initTemplate("https://github.com/RoNikA/Veronika.github.io/JS/js21_22/templates.json");
            var resulTmplQuestion = test.questionTmpl;
            expect(resulTmplQuestion).toEqual(questionTmpl);
           
