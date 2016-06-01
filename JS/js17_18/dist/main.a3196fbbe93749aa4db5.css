@@ -1,0 +1,28 @@
+.btn,
+.header{font-size:16px}
+
+ .header,
+ .modal-footer,
+ .modal-header{
+ 	text-align:center
+ }
+
+.modal-wrapper,
+.shadow{position:fixed;top:0;left:0;bottom:0;right:0}*{margin:0}
+
+.btn{margin:0 auto;display:block;height:30px;width:100px;background-color:#F6F6F6;border:1px solid black}
+
+.modal,form{background-color:#fff}
+  form{padding-top:10px;font-family:sans-serif;width:1000px;height:500px;margin:auto;font-size:16px;line-height:20px}
+   form li{font-size:14px}
+    form ol{margin:10px 0px}
+
+.question ol{list-style:lower-latin}
+
+.modal{padding:15px;width:400px;box-shadow:0px 0px 10px 0px rgba(0,0,0,0.75);margin:50px auto;overflow:hidden}
+  .modal-header 
+  .close{background-color:transparent;border:none;font-size:24px}
+  .close{float:right}
+.modal-body{margin:40px 40px}
+.modal-wrapper{display:none;z-index:1}
+.shadow{background-color:black;opacity:.5}
