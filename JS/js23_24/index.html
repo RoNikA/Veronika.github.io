@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo-list</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<script type="text/template" id="wrapper-template">
+	<div class="wrapper">
+	     <ul class="item-list"></ul>
+	     <div class="records">
+	         <input type="text" class="item-value">
+	         <button class="item-add">Add</button>
+	     </div>
+	</div>
+</script>
+
+<script type="text/template" id="list-template">
+	<% for(var i = 0; i < data.length; i++) { %>
+		<li id="<%= i + 1 %>" class="todoitem">
+		<label id="<%= i + 1 %>" class="item-label" data-value="<%= data[i] %>"><%= data[i] %></label>
+        <span class="item-delete" data-value="<%= data[i] %>">delete</span>
+        <input id="<%= i + 1 %>" type="text" class="item-new-value" value="">
+		</li>
+	<% }; %>
+</script>
+<script data-main="js/app.js" src="js/require.js"></script>
+</body>
+</html>

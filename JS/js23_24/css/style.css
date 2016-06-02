@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5ECEF;
+}
+.wrapper{
+    position: absolute;
+    width: 30%;
+    left: 55%;
+    top: 100px;
+    margin-left: -23%;
+    padding: 10px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid #7D7272;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(100, 208, 225, 0.8);
+    background-color: #1A1717;
+}
+.item-value{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 25px;
+    width: 96%;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    font: 14px Arial;
+    color: #1A1717;
+    background: rgb(196, 224, 236);
+    outline: none;
+}
+.item-new-value{
+    display: none;
+}
+.editing .item-new-value{
+    display: block;
+    width: 85%;
+    height: 17px;
+    padding: 6px;
+    font: 16px Arial;
+    font-style: italic;
+    color: black;
+    border: 0px;
+    background-color: #ff4e50;
+    outline: none;
+}
+.editing .item-label{
+    display: none;
+}
+.item-label{
+    float: left;
+    display: inline-table;
+    height: 20px;
+    padding: 6px;
+    font: 14px Arial;
+    color: #A4C2CE;
+    width: auto;
+    cursor: text;
+    outline: none;
+}
+.item-add{
+   display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(34, 85, 130, 1);
+    font: 20px Arial;
+    color: rgb(26, 23, 23);
+    background: rgba(77, 170, 236, 1);
+    cursor: pointer;
+    outline: none;
+}
+.item-delete{
+    display: inline-table;
+    float: right;
+    text-align: center;
+    background-color: #C4D0EC;
+    margin-top: 0px;
+    width: 50px;
+    font: 12px Arial;
+    color: #615757;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.todoitem{
+    display: block;
+    list-style-type: none;
+    height: 20px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    margin: 5px;
+    background-color: #333333;
+    border-radius: 5px;
+  
+}
+.view label{
+    float: left;
+    display: block;
+    height: 35px;
+}
